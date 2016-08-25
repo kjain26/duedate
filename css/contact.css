@@ -1,0 +1,64 @@
+.contactForm {
+	position: relative;
+	left: 50%;
+	margin-top: 20%;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: #315D7F;
+
+}
+
+#nameContact {
+	border: 2px solid #315D7F;
+	border-radius: 3px;
+	width: 40%;
+	font-family: "quicksand", times, serif;
+}
+
+#emailContact {
+	border: 2px solid #315D7F;
+	border-radius: 3px;
+	width: 40%;
+}
+
+#messageContact {
+	width: 300px;
+	height: 150px;
+	border: 2px solid #315D74;
+	border-radius: 3px;
+}
+
+/* .submit {
+	position: relative;
+	left: 50%;
+	margin-top: 10%;
+	width: 100px;
+	text-align: center;
+
+	border: 1px dashed black;
+} */
+
+.buttonSub {
+	position: relative;
+	left: 200%;
+	margin-top: 10%;
+	border: 1px solid #315D7F;
+	border-radius: 3px;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px; /* same as div height. used to make text at the center */
+	background-color: #D9D9D6;
+	font-family: "quicksand", times, serif;
+	color: #315D7F;
+}
+
+.buttonSub:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+     transform:scale(0.97);
+}
+
+#buttonId {
+	
+}

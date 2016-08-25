@@ -1,0 +1,107 @@
+<!doctype html> 
+
+<html>
+
+<head>
+
+	<title> Due Date </title>
+
+	<!-- css bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<meta name="viewport" content="width = device-width, initial scale = 1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	 <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+
+<body>
+
+	<div class="main">
+
+		<div id="header">
+			<div id="beta">
+			<h3> beta </h3>
+			</div>
+		</div>
+
+		
+		<div class="comtainer">
+
+			<div class="col-md-12">
+				<div id="title">
+				<h1 class="duedate"> Due Date </h1>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<div class="placeholderCourse">
+				<h4 class="course"> Select Course </h4>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<form class="course-form"> 
+				<input type="text" id="course-control" placeholder="ME ...">
+				</form>
+			</div>
+
+			<div class="col-md-12">
+				<div class="placeholderProf">
+				<h4 class="prof"> Select Professor </h4>
+				</div>
+			</div>
+
+			<div class="col-md-12">
+				<form class="prof-form">
+				<input type="text" id="prof-control" placeholder="Professor">
+				</form>
+			</div>
+
+			<div class="col-md-12">
+				<div class="button">
+				<p> Search </p>
+				</div>
+			</div>
+
+
+		</div>
+	
+
+		<div id="footer">
+			<div class="contact">
+			<h3><a href="file:///Users/Karan/Desktop/duedate/contact.html" style="text-decoration:none;"> contact </a></h3>
+			</div>
+		</div>
+
+
+	</div>
+	
+
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-storage.js"></script> 
+
+
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCtjilIB1VPGhOYJFJ3uOs3N6q6wh_Ss1M",
+    authDomain: "due-date-ca8d4.firebaseapp.com",
+    databaseURL: "https://due-date-ca8d4.firebaseio.com",
+    storageBucket: "due-date-ca8d4.appspot.com",
+  };
+  firebase.initializeApp(config);
+  firebase.storageBucket(due-date-ca8d4.appspot.com);
+
+</script>
+
+
+</html>
+

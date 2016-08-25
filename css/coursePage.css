@@ -1,0 +1,77 @@
+/* coursePage.css */
+
+#header {
+	border:1px solid #D9D9D6;
+	background-color: #D9D9D6;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.back {
+	width: 100px;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: #315D7F;
+}
+
+.back h3:hover {
+	border: none;
+	background-color: #D9D9D6;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: #315D7F;
+	font-weight: bold;
+}
+
+.back:active {
+	-webkit-transform:scale(.95); /* Safari and Chrome */
+     transform:scale(1.1);
+}
+
+.row {
+	position: absolute;
+	left: 30px;
+	top: 110px;
+	width: 100%;
+}
+
+.filter {
+	position: absolute;
+	top: -10px;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	font-weight: bold;
+	color: #315D7F;
+}
+
+.homeworks {
+	position: absolute;
+	left: -5px;
+	border: 3px solid #315D7F;
+	border-radius: 5px;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: white;
+	background-color: #315D7F;
+}
+
+.homeworks:hover {
+	 -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.semester {
+	position: absolute;
+	left: -100px;
+	border: 3px solid #D9D9D6;
+	border-radius: 5px;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: white;
+	background-color: #D9D9D6;
+}
+
+.semester:hover {
+	 -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}

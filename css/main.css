@@ -1,0 +1,152 @@
+/* main.css */
+
+#header {
+	border:1px solid #D9D9D6;
+	background-color: #D9D9D6;
+	border-radius: 5px;
+	width: 100%;
+}
+
+#beta {
+	width: 100px;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: white;
+}
+
+#title {
+	position: relative;
+	margin-top: 4%;
+	text-align: center;
+}
+
+.duedate {
+	color: #315D7F;
+	font-family: "quicksand", times, serif;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.placeholderCourse {
+	position: relative;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.course {
+	color: #315D7F;
+	font-family: "quicksand", times, serif;
+
+}
+
+/* course form styling */
+
+.course-form {
+	position: relative;
+	margin-top: -0.5%;
+	text-align: center;
+}
+
+#course-control {
+	height: 30px;
+	width: 180px;
+	padding-left: 10px;
+	border: 2px solid #D6D8D9;
+	border-radius: 4px;
+	font-size: 1em;
+	font-family: "quicksand", times, serif;
+	font-weight: bold;
+}
+
+/*---------------------------*/
+
+.placeholderProf {
+	position: relative;
+	margin-top: 3%;
+	text-align: center;
+}
+
+.prof {
+	color: #315D7F;
+	font-family: "quicksand", times, serif;
+}
+
+/* professor form styling */
+
+.prof-form {
+	position: relative;
+	margin-top: -0.5%;
+	text-align: center;
+}
+
+#prof-control {
+	height: 30px;
+	width: 180px;
+	padding-left: 10px;
+	border: 2px solid #D6D8D9;
+	border-radius: 4px;
+	font-size: 1em;
+	font-family: "quicksand", times, serif;
+	font-weight: bold;
+}
+
+/*--------------------------*/
+
+.button {
+	position: absolute;
+	left: 590px;
+	top: 30px;
+	border: 1px solid #315D7F;
+	border-radius: 3px;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px; /* same as div height. used to make text at the center */
+	background-color: #D9D9D6;
+	font-family: "quicksand", times, serif;
+	color: #315D7F;
+
+}
+
+
+.button:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+     transform:scale(0.97);
+}
+
+#footer {
+	position: relative;
+	margin-top: 42%;
+	border: 1px dashed #D9D9D6;
+	height: 100px;
+	border-radius: 5px;
+	background-color: #D9D9D6;
+	text-align: center;
+}
+
+.contact {
+	position: absolute;
+	left: 590px;-;
+	top: 10px;
+	width: 100px;
+	background-color: #D9D9D6;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: #315D7F;
+	text-decoration: none;
+}
+
+.contact h3:hover {
+	border: none;
+	background-color: #D9D9D6;
+	text-align: center;
+	font-family: "quicksand", times, serif;
+	color: #315D7F;
+	font-weight: bold;
+}
+
+.contact:active {
+	-webkit-transform:scale(.95); /* Safari and Chrome */
+     transform:scale(1.1);
+}
